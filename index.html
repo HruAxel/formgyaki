@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="jquery-3.7.0.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main">
+        <div class="inputs">
+            <h1>Sign in</h1>
+            <form action="process.php" method="post">
+                <input type="text" name="name" id="name" placeholder="Név">
+                <input type="email" name="email" id="email" placeholder="E-mail cím">
+                <input type="password" name="password" id="password" placeholder="Jelszó">
+                <input type="password" name="password_confirmation" id="password_confirmation" placeholder="Jelszó mégegyszer">
+                <button>Regisztráció</button>
+            </form>
+        </div>
+            <div id="info"></div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
